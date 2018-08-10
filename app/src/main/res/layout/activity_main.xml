@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_appinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/et_appname"
+        android:layout_width="200dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/btn_getapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取包名" />
+
+    <Button
+        android:id="@+id/btn_manager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="应用管理" />
+
+    <Button
+        android:id="@+id/btn_Service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="运行服务" />
+
+</LinearLayout>
